@@ -62,5 +62,4 @@ Route::get('/about', 'PagesController@about');</pre>
 
 @section('footer')
 	@parent
-	more info...
 @stop

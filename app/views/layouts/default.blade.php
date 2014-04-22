@@ -16,23 +16,29 @@
 
 @section('header')
 	<div class="header">
-		<div class="logo"></div>
+	<div class="header_wrap">
+		<a href="{{ URL::to('/') }}"><div class="logo"></div></a>
 		<div class="header_body">
 @show
 
-			@section('header_menu')
-			<div class="header_menu">
-				<ul class="ht">
-					<li class="about"><a href="{{ URL::to('pages/about') }}" title="About"><span></span>About</a></li>
-					<li class="download"><a href="{{ URL::to('pages/download') }}" title="Download"><span></span>Download</a></li>
-					<li class="contribute"><a href="{{ URL::to('pages/contribute') }}" title="Contribute to Caiseal"><span></span>Contribute</a></li>
-					<li class="contact"><a href="{{ URL::to('pages/contact') }}" title="Contact Us"><span></span>Contact Us</a></li>
-					<li class="forum"><a href="{{ URL::to('forum/portal') }}" title="Forum"><span></span>Forum</a></li>
-					<li class="search"><a href="{{ URL::to('search') }}" title="Search site"><span></span>Search</a></li>
-					<li class="logout"><a href="ucp?mode=logout&amp;sid=" title="Logout [ Michaelo ]"><span></span>Logout</a></li>
-				</ul>
-			</div>
-			@show
+@section('header_menu')
+
+	<div class="header_menu">
+		<ul class="none">
+			<li class="about"><a href="{{ URL::to('pages/about') }}" title="About"><span></span>About</a></li>
+			<li class="contact"><a href="{{ URL::to('pages/contact') }}" title="Contact Us"><span></span>Contact Us</a></li>
+			<li class="contribute"><a href="{{ URL::to('pages/contribute') }}" title="Contribute to Caiseal"><span></span>Contribute</a></li>
+			<li class="download"><a href="{{ URL::to('pages/download') }}" title="Download"><span></span>Download</a></li>
+			<li class="forum"><a href="{{ URL::to('forum/portal') }}" title="Forum"><span></span>Forum</a></li>
+			<li class="search"><a href="{{ URL::to('search') }}" title="Search site"><span></span>Search</a></li>
+			<li class="login"><a href="ucp?mode=login&amp;id=" title="Logout [ Michaelo ]"><span></span>Login</a></li>
+			<!--
+			<li class="logout"><a href="ucp?mode=logout&amp;id=" title="Logout [ Michaelo ]"><span></span>Logout</a></li>
+			-->
+		</ul>
+	</div>
+</div>
+@show
 
 
 
@@ -97,11 +103,11 @@
 
 		@section('footer')
 		<div class="footer">
-			<a href="./pages">Pages</a> &bull;
-			<a href="./about">About</a> &bull;
-			<a href="./users">Users</a> &bull;
-			<a href="./login">Login</a> &bull;
-			<a href="./admin/panel">ACP</a>
+			<a href="{{ URL::to('/') }}">Home</a> &bull;
+			<a href="{{ URL::to('pages/about') }}">About</a> &bull;
+			<a href="{{ URL::to('users') }}">Users</a> &bull;
+			<a href="{{ URL::to('login') }}">Login</a> &bull;
+			<a href="{{ URL::to('admin/panel') }}">ACP</a>
 			<div class="copyright">
 				<a class="copyright" href="#">Caiseal by Michéal Ó Tuathail</a>
 			</div>

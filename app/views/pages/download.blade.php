@@ -55,7 +55,7 @@
 				<a href=".#">read more</a>
 			</div>
 		</div>
-		<div style="clear"></div>
+		<div class="clear"></div>
 	</div>
 	<div width="100%" style="margin-left: auto; margin-right: auto; margin-top: 0;">
 		<div class="clear"></div>
@@ -87,7 +87,7 @@
 				<a href=".#">read more</a>
 			</div>
 		</div>
-		<div style="clear"></div>
+		<div class="clear"></div>
 	</div>
 	<div width="100%" style="margin-left: auto; margin-right: auto; margin-top: 0;">
 		<div class="clear"></div>
@@ -120,7 +120,7 @@
 				<a href=".#">read more</a>
 			</div>
 		</div>
-		<div style="clear"></div>
+		<div class="clear"></div>
 	</div>
 
 	@stop
@@ -132,5 +132,4 @@
 
 @section('footer')
 	@parent
-	more info...
 @stop

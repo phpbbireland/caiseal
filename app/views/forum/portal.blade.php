@@ -32,8 +32,7 @@
 @section('content_end')
 	@parent
 @stop
-
 @section('footer')
 	@parent
-	more info...
+	100% CSS3 Compliant
 @stop
