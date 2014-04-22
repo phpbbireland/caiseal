@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^(.*) %{REQUEST_URI}public/ [R=302,NC]
+
+</IfModule>

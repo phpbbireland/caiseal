@@ -1,0 +1,126 @@
+.date_img {
+	color: #000;
+    background-position: 0 -7px;
+    background-image: url("../images/calendar_empty.png");
+    background-repeat: no-repeat;
+    float: left;
+    height: 54px;
+    width: 64px;
+    position: relative;
+}
+
+.date_img span {
+    position: absolute;
+}
+
+.date_img > .day_img { 
+    font-size: 21px;
+    font-weight: bold;
+    left: 0;
+    text-align: center;
+    top: 18px;
+    width: 64px;
+}
+.date_img > .month_img {
+    color: #FFFFFF; 
+    font-size: 8px;
+    font-weight: bold;
+    left: 12px;
+    text-transform: uppercase;
+    top: 6px;
+}
+
+.box_info {
+	width: auto;
+	background-color: #FFF;
+	border-radius: 7px;
+	border: solid 1px #BBB;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.content2 {
+	color: #444;
+    clear: both;
+    font-size: 0.85em;
+	font-weight: normal;
+    line-height: 1.3em;
+    padding: 6px;
+
+	/*height: 220px;*/
+	height: auto;
+	max-height: 220px;
+
+    overflow-x: auto;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.box_info_body {
+	background-color: #FFF;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.box_info h3 {
+    font-size: 1.8em;
+    line-height: 54px;
+    margin: 0;
+    padding: 0;
+	text-transform: none;
+	border: none;
+}
+
+.box_info .more {
+    min-height: 1.4em;
+	text-align: right;
+    padding: 2px 8px 0 8px;
+	border: solid 1px #BBB;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+
+	margin-left:-5px;
+	margin-right:-5px;
+	margin-bottom: -5px;
+	padding-bottom: 2px;
+
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	background-image: url("../images/active_subnav_bg.png");
+}
+.box_info .more a {
+	color: #000;
+	font-size: 0.75em;
+    background-image: url("../images/next.png");
+    background-origin: padding-box;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+}
+
+.content2 > a:link {
+	color: #DD4814;
+}
+
+.content2 > a:hover {
+	background-color: #fff;
+	color: #009A4D;
+}
+.content2 > a:visited {
+	color: #DD4814;
+}
+
+
+.box_info.odd {
+    clear: right;
+    float: right;
+    width: 48%;
+}
+.box_info.even {
+    clear: both;
+    float: left;
+    width: 48%;
+}
+.clear {
+    clear: both;
+}
