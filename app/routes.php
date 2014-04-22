@@ -58,8 +58,8 @@ Route::get('make', function()
 {
 	User::create([
 		'username' => 'Sean',
-		'email' => 'sean@eircom.net',
-		'password' => Hash::make('change2day')
+		'email' => 'sean@somesite.com',
+		'password' => Hash::make('password')
 	]);
 });
 */

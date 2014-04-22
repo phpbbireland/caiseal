@@ -36,7 +36,7 @@
 						<span class="month_img">Apr 2014</span>
 						<span class="day_img">13</span>
 					</div>
-					<h3><a href="./viewtopic.php?t=4190">Simple Forum Development</a></h3>
+					<h3><a href="#">Simple Forum Development</a></h3>
 					<div class="content2">
 						<span style="font-weight: bold">Development:</span><br />
 						I have played around with the idea of building a forum using Laravel since I was introduced to Laravel about a year ago...<br /><br />
@@ -51,7 +51,7 @@
 				</div>
 			</div>
 			<div class="more">
-				<a href="./viewtopic.php?t=4190">read more</a>
+				<a href="#">read more</a>
 			</div>
 		</div>
 		<div class="box_info odd">
@@ -61,10 +61,9 @@
 						<span class="month_img">May 2013</span>
 						<span class="day_img">26</span>
 					</div>
-					<h3><a href="./viewtopic.php?t=4190">Test reproduction of code</a></h3>
+					<h3><a href="#">Test post</a></h3>
 					<div class="content2">
-						<span style="font-weight: bold">New developer</span><br />We are happy to announce that <a href="http://phpbbsocialnetwork.com/profile.php?u=2874" class="postlink">Senky</a> has joined us as a new developer. We hope that it speeds the development of phpBB Social Network up and we will be able to release new versions more often.<br /><br /><span style="font-weight: bold">GitHub</span><br />We have also decided to move the development of <a href="https://github.com/phpBB-Social-Network" class="postlink">phpBB SN to GitHub</a>. Since now, every developer is able to fork SN repository, fix a bug or add a new feature and send it to us as a Pull ...
-						<span style="font-weight: bold">New developer</span><br />We are happy to announce that <a href="http://phpbbsocialnetwork.com/profile.php?u=2874" class="postlink">Senky</a> has joined us as a new developer. We hope that it speeds the development of phpBB Social Network up and we will be able to release new versions more often.<br /><br /><span style="font-weight: bold">GitHub</span><br />We have also decided to move the development of <a href="https://github.com/phpBB-Social-Network" class="postlink">phpBB SN to GitHub</a>. Since now, every developer is able to fork SN repository, fix a bug or add a new feature and send it to us as a Pull ...
+...
 					</div>
 				</div>
 			</div>
